@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Storage;
 using System.Data.Common;
 
-namespace Goober.EntityFramework.Implementation
+namespace Goober.EntityFramework.Common.Implementation
 {
     public abstract class BaseDbContext : DbContext, IBaseDbContext
     {
@@ -21,11 +21,6 @@ namespace Goober.EntityFramework.Implementation
         public IDbContextTransaction BeginTransaction()
         {
             return Database.BeginTransaction();
-        }
-
-        public DbConnection GetDbConnection()
-        {
-            return Database.GetDbConnection();
         }
 
         #endregion

@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Goober.EntityFramework
+namespace Goober.EntityFramework.Common
 {
     public interface IBaseRepository<TEntity> where TEntity : class
     {

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goober.EntityFramework", "Goober.EntityFramework\Goober.EntityFramework.csproj", "{64253718-BE29-4D54-89C1-56CE928D9C93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goober.EntityFramework", "Goober.EntityFramework\Goober.EntityFramework.csproj", "{64253718-BE29-4D54-89C1-56CE928D9C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goober.EntityFramework.MySql", "Goober.EntityFramework.MySql\Goober.EntityFramework.MySql.csproj", "{1DFED0DD-13FC-4D39-B4FC-AADD2CFFCD8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goober.EntityFramework.Common", "Goober.EntityFramework.Common\Goober.EntityFramework.Common.csproj", "{BD72AB9B-4557-44D5-98EF-43576A663A08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{64253718-BE29-4D54-89C1-56CE928D9C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64253718-BE29-4D54-89C1-56CE928D9C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64253718-BE29-4D54-89C1-56CE928D9C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DFED0DD-13FC-4D39-B4FC-AADD2CFFCD8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DFED0DD-13FC-4D39-B4FC-AADD2CFFCD8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DFED0DD-13FC-4D39-B4FC-AADD2CFFCD8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DFED0DD-13FC-4D39-B4FC-AADD2CFFCD8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD72AB9B-4557-44D5-98EF-43576A663A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD72AB9B-4557-44D5-98EF-43576A663A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD72AB9B-4557-44D5-98EF-43576A663A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD72AB9B-4557-44D5-98EF-43576A663A08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

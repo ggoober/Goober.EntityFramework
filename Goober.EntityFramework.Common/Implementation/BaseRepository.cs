@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Internal;
 using System;
 using System.Threading.Tasks;
 
-namespace Goober.EntityFramework.Implementation
+namespace Goober.EntityFramework.Common.Implementation
 {
     public class BaseRepository<TEntity>
         : IBaseRepository<TEntity>
