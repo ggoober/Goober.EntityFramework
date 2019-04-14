@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System;
 
-namespace Goober.EntityFramework
+namespace Goober.EntityFramework.SqlServer
 {
     public static class ServiceCollectionExtensions
     {
