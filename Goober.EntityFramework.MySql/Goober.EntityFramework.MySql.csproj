@@ -4,9 +4,9 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Denis Tskhay</Authors>
-    <Version>1.0.0</Version>
-    <AssemblyVersion>1.0.0.1704</AssemblyVersion>
-    <FileVersion>1.0.0.1704</FileVersion>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.1704</AssemblyVersion>
+    <FileVersion>1.0.1.1704</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
