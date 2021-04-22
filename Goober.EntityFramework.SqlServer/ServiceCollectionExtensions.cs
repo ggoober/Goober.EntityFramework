@@ -7,7 +7,7 @@ namespace Goober.EntityFramework.SqlServer
 {
     public static class ServiceCollectionExtensions
     {
-        public static void RegisterDbContext<TContextService, TContextImplementation>(
+        public static void RegisterMsSqlDbContext<TContextService, TContextImplementation>(
             this IServiceCollection services,
             Func<string> GetConnectionString,
             ServiceLifetime serviceLifetime = ServiceLifetime.Scoped,
