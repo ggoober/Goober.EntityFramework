@@ -6,7 +6,7 @@ namespace Goober.EntityFramework.PostgreSql
 {
     public static class ServiceCollectionExtensions
     {
-        public static void RegisterMySqlDbContext<TContextService, TContextImplementation>(
+        public static void RegisterPostgreSqlDbContext<TContextService, TContextImplementation>(
             this IServiceCollection services,
             Func<string> GetConnectionString)
                 where TContextService : class
