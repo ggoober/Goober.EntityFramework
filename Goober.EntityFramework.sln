@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goober.EntityFramework.MySq
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goober.EntityFramework.Common", "Goober.EntityFramework.Common\Goober.EntityFramework.Common.csproj", "{BD72AB9B-4557-44D5-98EF-43576A663A08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goober.EntityFramework.SQLite", "Goober.EntityFramework.SQLite\Goober.EntityFramework.SQLite.csproj", "{9FFBA2A9-4F1E-43F7-A950-65F3E43AFACF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goober.EntityFramework.SQLite", "Goober.EntityFramework.SQLite\Goober.EntityFramework.SQLite.csproj", "{9FFBA2A9-4F1E-43F7-A950-65F3E43AFACF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goober.EntityFramework.PostgreSql", "Goober.EntityFramework.PostgreSql\Goober.EntityFramework.PostgreSql.csproj", "{ABCE03A1-FBF4-48EC-8564-43B9CE33C3DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9FFBA2A9-4F1E-43F7-A950-65F3E43AFACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FFBA2A9-4F1E-43F7-A950-65F3E43AFACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FFBA2A9-4F1E-43F7-A950-65F3E43AFACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCE03A1-FBF4-48EC-8564-43B9CE33C3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCE03A1-FBF4-48EC-8564-43B9CE33C3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCE03A1-FBF4-48EC-8564-43B9CE33C3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCE03A1-FBF4-48EC-8564-43B9CE33C3DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
